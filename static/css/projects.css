@@ -1,0 +1,99 @@
+.navbar {
+    height: 83px !important;
+    align-items: center !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between!important;
+    border-bottom: 1px solid #dfdfdf !important;
+
+}
+.form-control{
+    border: 1px solid #dfdfdf;
+    border-radius: 3.01px;
+    box-sizing: border-box;
+    width: 400px;
+    height: 20px;
+    
+}
+.form_section{
+    display: flex;
+    flex-direction: column;
+}
+.center-text{
+    display: block;
+    font-size: 14px;
+    color: black;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
+}
+.form-group{
+    display: flex;
+}
+.my-form{
+    display: flex;
+    
+}
+.submit{
+    align-items: center;
+    background-color: #0d98be;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto;
+    border-bottom-color: rgba(0, 0, 0, 0);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgba(0, 0, 0, 0);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: rgba(0, 0, 0, 0);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    direction: ltr;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 30px;
+    max-width: 300px;
+    min-width: 0px;
+    overflow-x: visible;
+    overflow-y: visible;
+    padding-bottom: 0px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 0px;
+}
+button:hover{
+    background-color: rgb(1, 88, 122);
+    color: white;
+    cursor: pointer;
+}
+.form-control:focus{
+    background-color: none;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+.v-code{
+    font-family: 'Libre Franklin', sans-serif;
+}

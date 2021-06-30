@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} Home {% endblock %}
+
+{% block content %}
+
+
+
+<section class="form_section container mt-5" style="">
+        <p class="center-text">Please enter the fulfillment verification code from the certification certificate. Click
+            submit to verify the
+            fulfillment. Verification information is displayed above this text. After viewing the verification
+            information, you may continue use this form to verify additional certificates as needed.</p>
+        <form action="" class="m-auto my-form" method="POST">
+        {% csrf_token %}
+            <div class="row">
+                <span class="col-3 code">verification code</span>
+                {% for field in form %}
+                <div class="col-9">
+                    {{field}}
+                    <span style="color:red;">{{field.errors}}</span>
+                </div>
+                {% endfor %}
+                <div class="col-9 offset-3  mt-5">
+                    <button class="submit" type="submit">submit</button>
+                </div>
+            </div>
+
+        </form>
+    </section>
+{% endblock %}
